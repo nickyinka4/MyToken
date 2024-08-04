@@ -212,3 +212,36 @@ contract HelloWorld {
 }
 
 Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "myToken" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "myToken" message.
+
+# ERC20 Token
+
+This repository contains a simple implementation of an ERC20 token smart contract using OpenZeppelin's libraries.
+
+## Description
+
+This ERC20 token contract includes all the standard functions required for an ERC20 token:
+- `name`: Returns the name of the token.
+- `symbol`: Returns the symbol of the token.
+- `decimals`: Returns the number of decimals the token uses.
+- `totalSupply`: Returns the total supply of the token.
+- `balanceOf`: Returns the account balance of another account with address `owner`.
+- `transfer`: Transfers `_value` amount of tokens to address `_to`.
+- `approve`: Allows `_spender` to withdraw from your account multiple times, up to the `_value` amount.
+- `transferFrom`: Transfers `_value` amount of tokens from address `_from` to address `_to`.
+
+## Getting Started
+
+### Dependencies
+
+- Solidity ^0.8.0
+- Node.js
+- Hardhat (for testing and deployment)
+- OpenZeppelin Contracts
+
+### Installing
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/your-repo/erc20-token.git
+   cd erc20-token
+
