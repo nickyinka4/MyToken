@@ -28,9 +28,9 @@ contract ERC20Token {
     );
 
     constructor() {
-        tokenName = "megphillo";
+        tokenName = "nickyinka";
         totalSupplys = 1000000000000000;
-        symbol = "MGPO";
+        symbol = "NKYKA";
         decimals = 18;
         owner = msg.sender;
         balances[msg.sender] += totalSupplys;
